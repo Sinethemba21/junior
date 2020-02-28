@@ -1,0 +1,142 @@
+html, body{
+height: 300px;
+margin: 0 auto;
+font-family: 'Barlow Condensed', sans-serif ;
+scroll-behavior: smooth;
+}
+.Logo{
+padding: 10px 25px;
+width: 80%;
+
+}
+
+
+.Top {
+display: inline-grid;
+align-items: center;
+grid-template-columns: auto auto;
+grid-column-gap: 300px;
+padding: 10px;
+background: #09071c;
+color: white;
+width: 100%;
+}
+
+.Navigation ul {
+list-style: none;
+text-align: center;
+margin-top: -40px;
+padding: 15px;
+
+}
+
+.Navigation ul li {
+display:  inline-grid;
+margin: 10px;
+}
+
+.Navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+.intro {
+background-image: linear-gradient(rgba(0,0,0,0.5),  rgba(0,0,0,0.5)), url("../images/jonathan riley.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+min-height: 400px;
+text-align: center;
+padding-top: 150px;
+color: white;
+}
+.intro p {
+font-size: 20px;
+}
+ .intro h1{
+font-size: 50px;
+ }
+
+button{
+font-size: 20px;
+padding: 15px;
+width: 200px;
+border: 2px solid #CE9510;
+background: #CE9510;
+color: white;
+}
+.grid-container {
+display: grid;
+grid-column-gap: 20px;
+justify-content: center;
+grid-template-columns: auto auto auto;
+padding: 10px;
+
+}
+.grid-item{
+border: 1px solid #cdcdcd;
+padding:20px;
+font-size: 20px;
+text-align: center;
+width: 250px;
+}
+ hr{
+width: 50px;
+border: 0;
+border-top: 1px solid #CE9510;
+}
+
+.Services h2 {
+text-align: center;
+font-size: 40px;
+
+}
+.gridinvestment{
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+}
+.Mission {
+background: #f2f3f8;
+padding: 20px 20px 20px 300px;
+width: 100%;
+
+}
+
+.Benefits{
+  background: linear-gradient(rgba(0,0,0,0.8),  rgba(0,0,0,0.8)),url("../images/about 1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  width: 400%;
+}
+.btn button{
+  font-size: 20px;
+  width: 300px;
+}
+#Benefits-list{
+list-style: none;
+}
+
+.whychooseus{
+padding:20px 20px 20px 300px;
+background: #09071c;
+color: white;
+width:34.5%;
+height: 25rem;
+}
+
+.bttn button {
+
+  font-size: 20px;
+  width: 300px;
+}
+
+.parent{
+  display: flex;
+}
+
+.video {
+  padding: 20px 20px 20px 50px;
+  background-color: linear-gradient(rgba(0,0,0,0.8),  rgba(0,0,0,0.8)),url("../images/thabo.jpeg");
+}
